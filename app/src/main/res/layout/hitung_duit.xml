@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edt_nilai_pertama"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:hint="Masukan nilai uang pertama"/>
+
+    <EditText
+        android:id="@+id/edt_nilai_kedua"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukan nilai uang pertama"/>
+
+    <Button
+        android:id="@+id/btn_hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_login"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Hitung Hasil"
+        android:layout_marginRight="50dp"/>
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
